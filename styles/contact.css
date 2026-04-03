@@ -1,0 +1,53 @@
+.main-contact {
+        max-width: 1200px;
+        height: 560px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+
+.Zaglav {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    font-family: monospace;
+    margin-top: 7%;
+}
+
+.about-txt, .consumer-comp {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    color: #555;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .main-contact {
+        padding: 0 0.5rem;
+    }
+
+    #about {
+        padding: 1.5rem;
+    }
+
+    .Zaglav {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        padding: 1rem;
+    }
+
+    .Zaglav {
+        font-size: 1.2rem;
+    }
+
+    .about-txt, .consumer-comp {
+        font-size: 0.9rem;
+    }
+}

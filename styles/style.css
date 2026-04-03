@@ -1,0 +1,161 @@
+.sctn {
+    background-color: rgba(255, 255, 255, 0.932);
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid black;
+    position: relative;
+    z-index: -2;
+    min-height: 500px;
+    border-radius: 15px;
+}
+
+#filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+        
+.filter-box-1, .filter-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+        
+.filter-text {
+    font-family: monospace;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    background: white;
+}
+        
+.filter-text:hover {
+    background-color: #f0f0f0;
+}
+
+.tovar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+        
+.backk {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    position: relative;
+    margin: 0;
+}
+        
+.img1 img {
+    width: 96%;
+    border: 6px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+        
+.text_attackshark {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+        
+.dollor {
+    font-size: 25px;
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+        
+.text_decor {
+    text-decoration: none;
+    }
+
+@media (max-width: 1200px) {
+    .filter-text {
+        font-size: 22px;
+        padding: 8px 16px;
+    }
+            
+    .backk {
+        max-width: 300px;
+        }
+    }
+        
+@media (max-width: 992px) {
+    .filter-text {
+        font-size: 20px;
+    }
+            
+    .text_attackshark {
+        font-size: 16px;
+    }
+            
+    .dollor {
+        font-size: 22px;
+    }
+}
+        
+@media (max-width: 768px) {
+    #filter {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+            
+    .filter-box-1, .filter-box-2 {
+        width: 100%;
+        justify-content: space-around;
+    }
+            
+    .filter-text {
+        font-size: 18px;
+        padding: 6px 12px;
+    }
+            
+    .sctn {
+        min-height: 400px;
+    }
+}
+        
+@media (max-width: 576px) {
+    .filter-text {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+            
+    .text_attackshark {
+        font-size: 14px;
+    }
+            
+    .dollor {
+        font-size: 20px;
+    }
+            
+    .backk {
+        padding: 15px;
+    }
+            
+    .img1 img {
+        border-width: 4px;
+        }
+    }
