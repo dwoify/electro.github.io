@@ -2,4 +2,26 @@
 <urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dwoify.github.io/<loc>
-      <lastmod>2023-12-01
+    <lastmod>2023-12-01</lastmod>
+    <changeFreq>daily</changefreq>
+    <priority>0.9<priorety>
+  </url>
+  <url>
+    <loc>https://dwoify.github.io/catalog.html<loc>
+    <lastmod>2023-12-01</lastmod>
+    <changeFreq>weakly</changefreq>
+    <priority>0.9<priorety>
+  </url>
+  <url>
+    <loc>https://dwoify.github.io/product<loc>
+    <lastmod>2023-12-01</lastmod>
+    <changeFreq>daily</changefreq>
+    <priority>0.9<priorety>
+  </url>
+  <url>
+    <loc>https://dwoify.github.io/<loc>
+    <lastmod>2023-12-01</lastmod>
+    <changeFreq>daily</changefreq>
+    <priority>0.9<priorety>
+  </url>
+        
